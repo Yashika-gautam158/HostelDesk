@@ -1,0 +1,141 @@
+/* ==========================
+   Login Page
+========================== */
+
+.login-page{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    background:linear-gradient(135deg,#f8f9fa,#eef1e7);
+
+    padding:30px;
+
+}
+
+/* ==========================
+   Login Card
+========================== */
+
+.login-card{
+
+    width:100%;
+
+    max-width:430px;
+
+    background:#ffffff;
+
+    border-radius:22px;
+
+    padding:40px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+}
+
+/* ==========================
+   Heading
+========================== */
+
+.login-card h1{
+
+    color:#157093;
+
+    font-weight:700;
+
+    margin-bottom:8px;
+
+}
+
+.login-card p{
+
+    color:#777;
+
+    margin-bottom:30px;
+
+}
+
+/* ==========================
+   Labels
+========================== */
+
+.login-card label{
+
+    font-weight:600;
+
+    color:#555;
+
+    margin-bottom:8px;
+
+    display:block;
+
+}
+
+/* ==========================
+   Inputs
+========================== */
+
+.login-card .form-control{
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+    padding:12px;
+
+    transition:.25s;
+
+}
+
+.login-card .form-control:focus{
+
+    border-color:#157093;
+
+    box-shadow:0 0 0 .2rem rgba(96,108,56,.15);
+
+}
+
+/* ==========================
+   Button
+========================== */
+
+.login-card .btn-primary{
+
+    background:#157093;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:12px;
+
+    font-weight:600;
+
+    transition:.25s;
+
+}
+
+.login-card .btn-primary:hover{
+
+    background:#157093;
+
+}
+
+/* ==========================
+   Responsive
+========================== */
+
+@media(max-width:768px){
+
+.login-card{
+
+    padding:25px;
+
+}
+
+}

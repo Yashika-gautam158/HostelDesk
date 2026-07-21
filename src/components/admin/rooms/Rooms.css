@@ -1,0 +1,63 @@
+.room-card{
+
+    border-radius:20px;
+
+    transition:.3s;
+
+    overflow:hidden;
+
+    background:#fff;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.room-card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 35px rgba(0,0,0,.15);
+
+}
+
+.room-card .card-body{
+
+    padding:1.5rem;
+
+}
+
+.room-info p{
+
+    margin-bottom:10px;
+
+    color:#555;
+
+}
+
+.progress{
+
+    border-radius:20px;
+
+    background:#e9ecef;
+
+}
+
+.progress-bar{
+
+    border-radius:20px;
+
+}
+
+.badge{
+
+    font-size:.8rem;
+
+    border-radius:20px;
+
+}
+
+.card-footer{
+
+    padding:1rem 1.5rem 1.5rem;
+
+}

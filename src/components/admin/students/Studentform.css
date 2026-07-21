@@ -1,0 +1,175 @@
+/* ---------- Form Container ---------- */
+
+.student-form-card{
+
+    background:#fff;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    overflow:hidden;
+
+}
+
+/* ---------- Header ---------- */
+
+.student-form-header{
+
+    padding:24px 30px;
+
+    border-bottom:1px solid #ececec;
+
+    background:#fff;
+
+}
+
+.student-form-header h2{
+
+    font-size:28px;
+
+    font-weight:700;
+
+}
+
+.student-form-header p{
+
+    color:#777;
+
+    margin:0;
+
+}
+
+/* ---------- Body ---------- */
+
+.student-form-body{
+
+    padding:30px;
+
+}
+
+/* ---------- Section Heading ---------- */
+
+.student-form-body h5{
+
+    font-weight:700;
+
+    color:#3d405b;
+
+    margin-bottom:18px;
+
+    position:relative;
+
+}
+
+.student-form-body h5::after{
+
+    content:"";
+
+    display:block;
+
+    width:55px;
+
+    height:3px;
+
+    background:#606c38;
+
+    margin-top:8px;
+
+    border-radius:20px;
+
+}
+
+/* ---------- Labels ---------- */
+
+.form-label{
+
+    font-weight:600;
+
+    color:#555;
+
+}
+
+/* ---------- Inputs ---------- */
+
+.form-control,
+
+.form-select{
+
+    border-radius:12px;
+
+    border:1px solid #ddd;
+
+    padding:12px;
+
+    transition:.25s;
+
+}
+
+.form-control:focus,
+
+.form-select:focus{
+
+    border-color:#606c38;
+
+    box-shadow:0 0 0 .2rem rgba(96,108,56,.15);
+
+}
+
+/* ---------- Textarea ---------- */
+
+textarea.form-control{
+
+    resize:none;
+
+}
+
+/* ---------- Buttons ---------- */
+
+.btn-primary{
+
+    background:#606c38;
+
+    border:none;
+
+    border-radius:12px;
+
+    padding:10px 24px;
+
+    font-weight:600;
+
+}
+
+.btn-primary:hover{
+
+    background:#4f5b2f;
+
+}
+
+.btn-outline-primary{
+
+    border-radius:12px;
+
+}
+
+/* ---------- Responsive ---------- */
+
+@media(max-width:768px){
+
+.student-form-header{
+
+flex-direction:column;
+
+align-items:flex-start !important;
+
+gap:15px;
+
+}
+
+.student-form-body{
+
+padding:20px;
+
+}
+
+}
