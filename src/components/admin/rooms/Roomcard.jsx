@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function RoomCard({ room, onDelete }) {
+export default function Roomcard({ room, onDelete }) {
 
     const percentage =
         room.capacity > 0

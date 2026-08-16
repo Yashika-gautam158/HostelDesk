@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import StudentService from "../../../services/Studentservice";
-import "./Studentdisplay.css";
+import "./studentdisplay.css";
 
 export default function Studentdisplay() {
 
